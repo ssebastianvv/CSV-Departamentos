@@ -13,7 +13,7 @@ export async function renderTable(arrayTable: DataTable, currentPage: number, re
 
     // Generar el HTML de la tabla
     return `
-        <table class="table table-striped">
+        <table class="table table-success table-striped">
             <thead>
                 <tr>
                     ${columNames.map(colName => `
